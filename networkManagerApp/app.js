@@ -14,5 +14,30 @@ var app = angular.module("networkManager", ["ngRoute"])
         $scope.message = "Welcome!";
     })
     .controller("networkController", function ($scope) {
-        $scope.networkName = "Network 1";
+        var nodes = [
+            {
+                id: 1,
+                type: "RBS",
+                location: "Galway",
+                traffic: "heavy",
+                cells: [
+                    {
+                        range: "medium"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                type: "LTE",
+                location: "Dublin",
+                traffic: "light",
+                cells: [
+                    {
+                        range: "small"
+                    }
+                ]
+            }
+        ];
+        $scope.nodes = nodes;
+        $scope.networkName = "Network Overview";
     })
