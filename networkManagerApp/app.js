@@ -40,4 +40,10 @@ var app = angular.module("networkManager", ["ngRoute"])
         ];
         $scope.nodes = nodes;
         $scope.networkName = "Network Overview";
+        $scope.deleteNode = function (node) {
+            var index = nodes.indexOf(node);
+            if (index > -1) {
+                nodes.splice(index, 1);
+            }
+        }
     })
