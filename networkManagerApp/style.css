@@ -22,3 +22,16 @@ a {
     display: block;
     padding: 5px
 }
+table {
+    border-collapse: collapse;
+    font-family: Arial;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
