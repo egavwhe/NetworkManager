@@ -4,34 +4,59 @@
     text-align: center;
     background-color: #BDBDBD;
 }
+
 .footer {
     background-color: #BDBDBD;
     text-align: center;
 }
+
 .leftMenu {
     height: 500px;
     background-color: #D8D8D8;
     width: 150px;
 }
+
 .mainContent {
     height: 500px;
     background-color: #E6E6E6;
     width: 650px;
 }
+
 a {
     display: block;
     padding: 5px
 }
+
 table {
     border-collapse: collapse;
     font-family: Arial;
 }
+
 td {
     border: 1px solid black;
     padding: 5px;
 }
+
 th {
     border: 1px solid black;
     padding: 5px;
     text-align: left;
+}
+
+#tableOptions {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.ng-scope {
+    height: 100%;
+}
+
+.ng-view {
+    height: 100%;
+}
+
+#overviewTable {
+    position: relative;
 }

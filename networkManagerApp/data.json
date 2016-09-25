@@ -1,0 +1,93 @@
+var nodes = [
+    {
+        id: 1,
+        type: "rbs",
+        location: "Galway",
+        traffic: "heavy",
+        repairCost: "12000",
+        installDate: new Date("January 17. 2015"),
+        cells: [
+            {
+                range: "medium"
+                    }
+                ]
+            },
+    {
+        id: 2,
+        type: "Lte",
+        location: "Dublin",
+        traffic: "light",
+        repairCost: "23000",
+        installDate: new Date("November 17. 2012"),
+        cells: [
+            {
+                range: "small"
+                    }
+                ]
+            },
+    {
+        id: 3,
+        type: "Lte",
+        location: "Cork",
+        traffic: "medium",
+        repairCost: "5000",
+        installDate: new Date("March 3. 2010"),
+        cells: [
+            {
+                range: "small"
+                    }
+                ]
+            },
+    {
+        id: 4,
+        type: "eNodeB",
+        location: "Belfast",
+        traffic: "light",
+        repairCost: "40000",
+        installDate: new Date("April 10. 2016"),
+        cells: [
+            {
+                range: "small"
+                    }
+                ]
+            },
+    {
+        id: 5,
+        type: "nodeB",
+        location: "Donegal",
+        traffic: "heavy",
+        repairCost: "23000",
+        installDate: new Date("December 1. 2009"),
+        cells: [
+            {
+                range: "small"
+                    }
+                ]
+            },
+    {
+        id: 6,
+        type: "nodeB",
+        location: "Birmingham",
+        traffic: "heavy",
+        repairCost: "2000",
+        installDate: new Date("December 5. 2011"),
+        cells: [
+            {
+                range: "small"
+                    }
+                ]
+            },
+    {
+        id: 7,
+        type: "nodeB",
+        location: "London",
+        traffic: "heavy",
+        repairCost: "2000",
+        installDate: new Date("December 5. 2011"),
+        cells: [
+            {
+                range: "small"
+                    }
+                ]
+            }
+        ];
