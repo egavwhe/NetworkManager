@@ -10,7 +10,7 @@ var app = angular.module("networkManager", ["ngRoute"])
                 controller: "networkController"
             })
             .otherwise({
-                redirestTo: "/home"
+                redirectTo: "/home"
             })
     })
     .controller("homeController", function ($scope) {
