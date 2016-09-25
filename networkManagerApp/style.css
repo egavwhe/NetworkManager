@@ -42,21 +42,3 @@ th {
     padding: 5px;
     text-align: left;
 }
-
-#tableOptions {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-}
-
-.ng-scope {
-    height: 100%;
-}
-
-.ng-view {
-    height: 100%;
-}
-
-#overviewTable {
-    position: relative;
-}
